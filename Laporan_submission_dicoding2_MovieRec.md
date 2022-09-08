@@ -2,11 +2,9 @@
 
 ## Project Overview
 
-Proyek ini adalah pembuatan sebuah sistem rekomendasi film. Mengapa memilih rekomendasi film ? Dikarenakan dataset yang saya temukan tidak terlalu rumit, sehingga saya rasa pengerjaannya tidak akan memakan waktu lama.
+Proyek ini adalah pembuatan sebuah sistem rekomendasi film. Mengapa memilih rekomendasi film ? Dikarenakan dataset yang penulis temukan tidak terlalu rumit, sehingga penulis rasa pengerjaannya tidak akan memakan waktu lama.
 
-Adapun tujuan dari pembuatan ini adalah untuk memberikan user sebuah rekomendasi film yang mungkin akan ia suka. Ini berguna dalam kasus dimana kita adalah pihak yang menayangkan film tersebut. Dengan memberikan rekomendasi film serupa, user akan kembali lagi ke platform penanyangan film tersebut, sehingga meningkatkan keuntungan untuk perusahaan.
-
->Referensi here
+Adapun tujuan dari pembuatan ini adalah untuk memberikan user sebuah rekomendasi film yang mungkin akan ia suka. Ini berguna dalam kasus dimana kita adalah pihak yang menayangkan film tersebut. Dengan memberikan rekomendasi film serupa, user akan kembali lagi ke platform penanyangan film tersebut, sehingga meningkatkan keuntungan untuk perusahaan. Sistem rekomendasi sendiri pertama kali disebutkan pada 1998, yang dimana tujuan awalnya mirip seperti google scholar pada zaman sekarang[1].
 
 ## Business Understanding
 
@@ -17,7 +15,7 @@ Adapun tujuan dari pembuatan ini adalah untuk memberikan user sebuah rekomendasi
 * Merekomendasikan media hiburan yang serupa dengan apa yang user tersebut telah tonton.
 
 ### Solution Approach
-* Kita akan menggunakan content-based recommendation system. Kita juga bisa menggunakan demographic based recommendation, tetapi itu sangat amat terlalu simple, dan saya rasa bukan sebuah tantangan
+* Kita akan menggunakan content-based recommendation system. Kita juga bisa menggunakan demographic based recommendation, tetapi itu sangat amat terlalu simple, dan penulis rasa bukan sebuah tantangan
 
 ## Data Understanding
 
@@ -68,7 +66,7 @@ Beberapa kolom cukup membingungkan karena bernama cukup ambigu dan author data n
 
 ## Data Preparation
 
-Kita hanya akan menggunakan 2-3 kolom dari kolom diatas. Awalnya, saya ingin mengambil kolom `title`, `overview`, dan `adult`. Tetapi setelah saya telusuri datanya, terdapat kejanggalan pada `adult`
+Kita hanya akan menggunakan 2-3 kolom dari kolom diatas. Awalnya, penulis ingin mengambil kolom `title`, `overview`, dan `adult`. Tetapi setelah penulis telusuri datanya, terdapat kejanggalan pada `adult`
 
 ![image](https://user-images.githubusercontent.com/76782988/189086769-a071d65a-e690-4c06-9c70-40484e096eea.png)
 
@@ -93,7 +91,7 @@ Jumlah data final berupa 19863 data.
 
 Demographic based adalah dimana kita merekomendasikan item yang disenangi seluruh orang, tidak ada personaliasi sama sekali
 
-Seperti disebut diatas, cara ini sangatlah simple, braindead solution, jadi saya bahkan tidak ingin repot repot mendemonstrasikannya. Ingat kolom `popularity`? Pada cara ini, kita tinggal mengsortir seluruh dataframe berdasarkan kolom ini, dari terbesar ke terkecil. Ya.. itu doang.
+Seperti disebut diatas, cara ini sangatlah simple, braindead solution, jadi penulis bahkan tidak ingin repot repot mendemonstrasikannya. Ingat kolom `popularity`? Pada cara ini, kita tinggal mengsortir seluruh dataframe berdasarkan kolom ini, dari terbesar ke terkecil. Ya.. itu doang.
 
 ### Content based recommendation
 
@@ -125,4 +123,6 @@ Dari hasil diatas, bisa dilihat bahwa sistem bekerja dengan cukup baik. Ketika m
 
 Untuk metric sendiri, pada kasus ini, tidak ada metric yang bisa digunakan untuk menghitung tingkat akurasi dari sistem ini, dikarenakan benar atau tidaknya hasil rekomendasi merupakan hal yang sangat subjektif. Seseorang dapat mengira bahwa rekomendasi yang ia dapatkan sesuai, atau tidak sesuai, tergantung dari cara ia memandang film tersebut.
 
-[1]
+untuk sekarang, penulis rasa sistem ini sudah cukup, dan mungkin kedepannya akan menambahkan kolom lain yang bisa digunakan untuk meningkatkan kualitas dari sistem rekomendasi ini.
+
+[1] Bollacker, Kurt D., Steve Lawrence, and C. Lee Giles. "CiteSeer: An autonomous web agent for automatic retrieval and identification of interesting publications." Proceedings of the second international conference on Autonomous agents. 1998.
