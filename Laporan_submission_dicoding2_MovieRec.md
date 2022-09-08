@@ -123,6 +123,6 @@ Dari hasil diatas, bisa dilihat bahwa sistem bekerja dengan cukup baik. Ketika m
 
 Untuk metric sendiri, pada kasus ini, tidak ada metric yang bisa digunakan untuk menghitung tingkat akurasi dari sistem ini, dikarenakan benar atau tidaknya hasil rekomendasi merupakan hal yang sangat subjektif. Seseorang dapat mengira bahwa rekomendasi yang ia dapatkan sesuai, atau tidak sesuai, tergantung dari cara ia memandang film tersebut.
 
-untuk sekarang, penulis rasa sistem ini sudah cukup, dan mungkin kedepannya akan menambahkan kolom lain yang bisa digunakan untuk meningkatkan kualitas dari sistem rekomendasi ini.
+Untuk sekarang, penulis rasa sistem ini sudah cukup, dan mungkin kedepannya akan menambahkan kolom lain yang bisa digunakan untuk meningkatkan kualitas dari sistem rekomendasi ini.
 
 [1] Bollacker, Kurt D., Steve Lawrence, and C. Lee Giles. "CiteSeer: An autonomous web agent for automatic retrieval and identification of interesting publications." Proceedings of the second international conference on Autonomous agents. 1998.
