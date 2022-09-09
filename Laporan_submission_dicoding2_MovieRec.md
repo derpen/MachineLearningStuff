@@ -1,10 +1,12 @@
 # Laporan Proyek Machine Learning - Muhammad Rizqi Assabil
 
-## Project Overview
+## Ulasan Proyek
 
-Proyek ini adalah pembuatan sebuah sistem rekomendasi film. Mengapa memilih rekomendasi film ? Dikarenakan dataset yang penulis temukan tidak terlalu rumit, sehingga penulis rasa pengerjaannya tidak akan memakan waktu lama.
+Proyek ini adalah pembuatan sebuah sistem rekomendasi film. Mengapa memilih rekomendasi film ? Karena ini adalah contoh yang cukup menarik, karena referensi nya sudah banyak tersedia online. Dan juga karena dataset yang penulis temukan tidak terlalu rumit, sehingga penulis rasa pengerjaannya tidak akan memakan waktu lama. 
 
-Adapun tujuan dari pembuatan ini adalah untuk memberikan user sebuah rekomendasi film yang mungkin akan ia suka. Ini berguna dalam kasus dimana kita adalah pihak yang menayangkan film tersebut. Dengan memberikan rekomendasi film serupa, user akan kembali lagi ke platform penanyangan film tersebut, sehingga meningkatkan keuntungan untuk perusahaan. Sistem rekomendasi sendiri pertama kali disebutkan pada 1998, yang dimana tujuan awalnya mirip seperti google scholar pada zaman sekarang[1].
+Adapun goal dari pembuatan sistem ini adalah untuk memberikan user sebuah rekomendasi film yang mungkin akan ia suka. Ini berguna dalam kasus dimana kita adalah pihak yang menayangkan film tersebut, misalnya kita adalah Netfliks. Dengan memberikan rekomendasi film serupa, user akan kembali lagi ke platform penanyangan film tersebut, sehingga meningkatkan keuntungan untuk perusahaan. 
+
+Sistem rekomendasi sendiri pertama kali disebutkan pada 1998, yang dimana tujuan awalnya mirip seperti google scholar pada zaman sekarang[1].
 
 ## Business Understanding
 
